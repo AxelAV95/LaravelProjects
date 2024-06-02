@@ -6,6 +6,7 @@ pipeline {
 	        DB_DATABASE = 'api-tasks'
 	        DB_USERNAME = 'root'
 	        DB_PASSWORD = ''
+	        APP_KEY = 'base64:gBT1fcrtAChvEkzhYMzE5EWcrYWYJNYBuoZ27p/fYHY='
     	}
     stages {
        
