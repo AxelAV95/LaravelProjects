@@ -1,7 +1,13 @@
 pipeline {
     agent any
     stages {
-       
+       environment {
+	        DB_HOST = 'localhost'
+	        DB_PORT = '3306'
+	        DB_DATABASE = 'api-tasks'
+	        DB_USERNAME = 'root'
+	        DB_PASSWORD = ''
+    	}
         stage('Acceder a la Carpeta del Proyecto') {
             steps {
                 dir('api-tareas') {
