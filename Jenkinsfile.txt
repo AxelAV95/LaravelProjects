@@ -1,11 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('Clonar Repositorio') {
-            steps {
-                git 'https://github.com/AxelAV95/LaravelProjects'
-            }
-        }
+       
         stage('Acceder a la Carpeta del Proyecto') {
             steps {
                 dir('api-tareas') {
