@@ -6,7 +6,10 @@ pipeline {
             steps {
                 dir('api-tareas') {
                     // Aquí se ejecutan los comandos específicos del proyecto Laravel
-                    echo 'Entró a la carpeta'
+                    echo 'Entro a la carpeta'
+		    bat 'composer install'
+                    bat 'php artisan migrate --env=testing'
+                    bat 'php artisan test
                 }
             }
         }
