@@ -1,0 +1,20 @@
+- Crear proyecto de laravel (listo)
+composer create-project laravel/laravel laravel-gc --prefer-dist
+-Generar key
+-Instalar api
+php artisan install:api
+- Configurar base de datos (listo)
+- Migrar (listo)
+php artisan migrate
+
+- Correr el proyecto (listo)
+
+- Instalar la dependencia de google storage (listo)
+composer require google/cloud-storage
+
+- Crear el bucket en google cloud (listo)
+- Configurar mis credenciales (listo)
+- Crear controlador (listo)
+php artisan make:controller FileUploadController
+- Crear ruta (listo)
+- Testear con postman o thunder (listo)
