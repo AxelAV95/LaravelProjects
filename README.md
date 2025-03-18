@@ -1,12 +1,21 @@
-Sistema de Gestión de Usuarios:
-Características: Registro y autenticación de usuarios, gestión de roles y permisos, recuperación de contraseñas.
-Aprendizaje: Autenticación y autorización, validación de formularios, seguridad en la gestión de usuarios.
+# Laravel Projects
 
-----------------------------------------------------------------------------------------------------------------
-API de Gestión de Tareas:
-Características: Endpoints para crear, editar, eliminar y listar tareas; autenticación de usuarios con tokens JWT.
-Aprendizaje: Estructuración de APIs RESTful, manejo de rutas, autenticación con JWT.
+Este repositorio contiene varios proyectos desarrollados en Laravel, abarcando autenticación, gestión de tareas y almacenamiento en Google Cloud. A continuación, se proporciona una breve descripción de cada uno:
 
-----------------------------------------------------------------------------------------------------------------
-API para subir documentos a Google cloud
-Características: Permite subir archivos pdf a google cloud
+## Proyectos
+
+### 1. api-authentication
+API de autenticación en Laravel, implementando control de acceso y gestión de usuarios.
+
+### 2. api-tareas
+API para la gestión de tareas con Laravel, incluyendo creación, edición y eliminación de tareas.
+
+### 3. laravel-gc
+Proyecto de Laravel con integración a Google Cloud para almacenamiento de archivos y otros servicios.
+
+## Requisitos
+- PHP 8+
+- Composer
+- Laravel 9+
+- Base de datos (MySQL)
+
